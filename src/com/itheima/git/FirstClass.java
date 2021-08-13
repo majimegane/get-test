@@ -7,12 +7,13 @@ public class FirstClass {
         System.out.println("呜呼起飞 ");
         System.out.println("呜呼起飞 ");
         System.out.println("呜呼起飞 ");
-        test();
+        int test = test();
+        System.out.println(test);
     }
 
-    public static void test(){
+    public static int test(){
         int i = 0;
         i += 10;
-
+        return i;
     }
 }
